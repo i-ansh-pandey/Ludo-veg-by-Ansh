@@ -1,4 +1,4 @@
-
+[Play Now]()
 Offline Ludo — Vegetables Edition
 - 4 players: Cabbage, Potato, Sweet Corn, Tomato (vegetable avatars).
 - Central dice UI with visible main path numbers and tiles.
