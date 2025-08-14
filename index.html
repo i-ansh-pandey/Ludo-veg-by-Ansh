@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=0.2" />
+  <title>Offline Ludo - Vegetables Edition</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Offline Ludo — Vegetables</h1>
+    <div class="status" id="status">Pass & play — click the dice in the center to roll.</div>
+    <button id="newGame" class="btn">New Game</button>
+  </header>
+
+  <main class="main">
+    <div class="board-area">
+      <div class="profile top" id="profile-top"></div>
+      <canvas id="board" width="720" height="720" aria-label="Ludo board"></canvas>
+      <div class="profile right" id="profile-right"></div>
+      <div class="profile left" id="profile-left"></div>
+      <div class="profile bottom" id="profile-bottom"></div>
+
+      <div class="dice-center" id="diceCenter" role="button" tabindex="0" aria-label="Roll dice">
+        <div id="diceFace" class="dice-face">–</div>
+        <button id="rollBtn" class="btn primary">Roll</button>
+      </div>
+    </div>
+
+    <aside class="panel">
+      <div id="playersPanel"></div>
+    </aside>
+  </main>
+
+  <footer class="app-footer">Game developed by <strong>Ansh Pandey</strong></footer>
+
+  <div id="toast" class="toast" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
